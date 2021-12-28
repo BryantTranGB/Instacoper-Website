@@ -8,7 +8,9 @@
     --text-fontStyle_2: none;
     --text-fontSize-: 24px;
     --text-fontSize: 24px;
+
+    --primary-fontFammily: 'Source Sans Pro', sans-serif;
 }
-
-
+/* Font chữ */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 

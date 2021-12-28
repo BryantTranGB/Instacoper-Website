@@ -12,31 +12,68 @@
 </head>
 <body>
    <div id="main">
-        <header id="header" style="width: 100%;">
+        <div id="header" >
             <img src="/assets/img/Product1.png" alt="" id="logo" >
             <div class="searhvia" onclick="firstFocus()">
                 <i class="fas fa-search" style="color: black;"></i>
                 <input type="text" placeholder="Tìm kiếm" id="searchValue">
             </div>
-            <i class="fas fa-user">
-                <ul>
+            <i class="fas fa-user" id="user">
+                
+            </i>
+            <i class="fas fa-cart-plus" id="cart">
+                <ul class="subcart">
                     <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><button type="button" class="subcart-button" id="cart-btn">Giỏ hàng </button>
+                        <button type="button" class="subcart-button" id="pay-btn">Thanh toán </button>
+                    </li>
                 </ul>
             </i>
-            <i class="fas fa-cart-plus"></i>
-        </header>
-        <div id="nav">
-            
         </div>
+        <div style="height: 80px;"></div>
+        <div id="nav">
+                <i class="fas fa-bars" id="portfolio-bar"> &nbsp; Danh mục sản phẩm</i>
+            <ul class="nav">
+                <li>
+                    <a href="">Trang Chủ</a>
+                </li>
+                <li>
+                    Sản phẩm 
+                    <ul class="subnav">
+                        <li>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Blog
+                    <ul class="subnav">
+                        <li>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    FAQs
+                    <ul class="subnav">
+                        <li>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Về chúng tôi
+                </li>
+                
+            </ul>
+        </div>
+<hr>
         <div id="banner">
         
         </div>
         
         <div id="content">
-        
+
         </div>
         
         <div id="sldier">
